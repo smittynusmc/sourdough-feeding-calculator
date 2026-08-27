@@ -1,0 +1,22 @@
+:root { font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif; color:#4f3624; background:#faf2df; }
+* { box-sizing:border-box; }
+body { margin:0; min-height:100vh; background:#faf2df; }
+.app-shell { max-width:560px; margin:auto; padding:24px; }
+.header { text-align:center; margin-bottom:34px; }
+.bread { font-size:58px; }
+h1 { color:#4a2e19; font-size:2.3rem; }
+label { display:block; margin-bottom:12px; font-size:1.4rem; font-weight:650; color:#523824; }
+.field-group { margin-bottom:28px; }
+select,.starter-card { width:100%; height:68px; border:2px solid #a67a4c; border-radius:18px; background:#fff; }
+select { padding:0 20px; font-size:1.75rem; color:#4d2e19; }
+.starter-card { height:82px; display:flex; align-items:center; padding:0 18px; }
+#starter { flex:1; border:0; outline:0; text-align:center; font-size:2.25rem; color:#000; }
+.grams { color:#000; font-size:1.75rem; }
+.results { display:grid; gap:16px; }
+.result-card { height:88px; display:grid; grid-template-columns:42px 1fr auto; align-items:center; padding:0 22px; border-radius:20px; background:#fff; }
+.result-title { font-size:1.6rem; }
+.result-card strong { font-size:1.9rem; }
+.total-card { margin-top:28px; display:grid; place-items:center; padding:26px; border-radius:22px; background:#e0bf89; }
+.total-card strong { font-size:3rem; }
+.clear-button,.done-button { margin-top:20px; padding:12px 18px; border-radius:14px; }
+.clear-button { width:100%; background:transparent; }
